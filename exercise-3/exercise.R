@@ -8,10 +8,11 @@ library("dplyr")
 #install.packages('devtools')
 #devtools::install_github("hadley/fueleconomy")
 library(fueleconomy)
+View(fueleconomy)
 
 # Which 2015 Acura model has the best hwy MGH? (Use dplyr, but without method
 # chaining or pipes--use temporary variables!)
-
+acura_best_mgh <- 
 
 # Which 2015 Acura model has the best hwy MPG? (Use dplyr, nesting functions)
 
